@@ -104,3 +104,4 @@ theme: landscape
 deploy:
   type: git
   repo: https://github.com/xuCesar/xuCesar.github.io
+  branch: gh-pages
