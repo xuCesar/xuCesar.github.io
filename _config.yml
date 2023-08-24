@@ -16,7 +16,7 @@ timezone: 'Asia/Shanghai'
 url: http://example.com
 permalink: :year/:month/:day/:title/
 permalink_defaults:
-pretty_urls:
+pretty_urls:deploy
   trailing_index: true # Set to false to remove trailing 'index.html' from permalinks
   trailing_html: true # Set to false to remove trailing '.html' from permalinks
 
@@ -102,4 +102,5 @@ theme: landscape
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
-  type: ''
+  type: git
+  repo: https://github.com/xuCesar/xuCesar.github.io
